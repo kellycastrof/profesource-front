@@ -90,31 +90,14 @@ const PostPage = (props) => {
       <div className="flex flex-col ">
         <div className=" text-4xl font-bold text-gray-800  justify-around ">
           <div>
-            <PostCells
-              id={info.id}
-              username={info.username}
-              time={info.time}
-              title={info.title}
-              desc={info.desc}
-              favs={info.favs}
-              comments={info.comments}
-              tags={info.tags}
-            />
+            
           </div>
           <div>
-            <PreComment username="cxcarvaj"
-              body={value}
-              onPost={
-                async () => {
-                  postComment();
-                }
-
-              }
-              id_Post={info.id} />
+            
           </div>
 
           <div id="loadcomments">
-            {loadComments()}
+            {/*loadComments()*/}
           </div>
 
         </div>
